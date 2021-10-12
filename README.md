@@ -8,15 +8,22 @@ The project consists of a script that allows fast generation of quality attestat
 
 ## Usage
 The script is straightforward, if not given any parameters, it will generate attestation from the newest invoice.
-<img src="./readme_images/attestation.png" width=70%>
+
+<p align="center">
+    <img src="./readme_images/attestation.png" width=70%>
+</p>
 
 In the QUI you can quickly do the same by just clicking "Generate" button. Additionally, you can uncheck the "Get newest" checkbox, which will allow to input ID of the invoice you want to use in generation. 
 
-<img src="./readme_images/main.png">
+<p align="center">
+    <img src="./readme_images/main.png">
+</p>
 
 After clicking the "Edit parameters" button, another window will pop up. This window consists of table of different parameters like 'humidity' or 'expiry date' for every product. 
 
-<img src="./readme_images/params.png">
+<p align="center">
+    <img src="./readme_images/params.png">
+</p>
 
 Data is read from database, and will be saved to it after clicking the "Save" button. This will additionally close the window and allow for further attestation generation.
 
