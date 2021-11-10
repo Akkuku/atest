@@ -1,10 +1,10 @@
 # Atest
 ## About project
-The project consists of a script that allows fast generation of quality attestation, and QUI application that wraps it in a way, that is easy to use and to maintain. The Main objective was to make a simple program to speed up attestation document generation, generally for my dad's usage in his mill company. Considering that, the app was designed to be user straightforward to use. 
+The project consists of a script that allows fast generation of quality attestation, and GUI application that wraps it in a way, that is easy to use and to maintain. The Main objective was to make a simple program to speed up attestation document generation, generally for my dad's usage in his mill company. Considering that, the app was designed to be user straightforward to use. 
 
 **The Script** allows for one-click PDF generation, getting all the data from the newest invoice, along with products parameters from a saved database.
 
-**The QUI** wraps the script, allowing parameters editing and free choice in terms of which invoice will be used in attestation generation.
+**The GUI** wraps the script, allowing parameters editing and free choice in terms of which invoice will be used in attestation generation.
 
 ## Usage
 The script is straightforward, if not given any parameters, it will generate attestation from the newest invoice.
@@ -13,7 +13,7 @@ The script is straightforward, if not given any parameters, it will generate att
     <img src="./readme_images/attestation.png" width=70%>
 </p>
 
-In the QUI you can quickly do the same by just clicking "Generate" button. Additionally, you can uncheck the "Get newest" checkbox, which will allow to input ID of the invoice you want to use in generation. 
+In the GUI you can quickly do the same by just clicking "Generate" button. Additionally, you can uncheck the "Get newest" checkbox, which will allow to input ID of the invoice you want to use in generation. 
 
 <p align="center">
     <img src="./readme_images/main.png">
